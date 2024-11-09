@@ -267,3 +267,126 @@ width: 80%;
     }
   }
   
+
+  @media only screen and (max-width: 320px) {
+    .about {
+      padding: 10px;
+    }
+  
+    .title {
+      text-align: center;
+      font-size: 16px;
+    }
+  
+    .about-sections {
+      flex-direction: column;
+    }
+  
+    .about-left {
+      margin-bottom: 15px;
+    }
+  
+    .about-right {
+      padding: 0;
+    }
+  
+    .about-para {
+      font-size: 12px;
+    }
+  
+    .about-skills {
+      margin-top: 15px;
+    }
+  
+    .about-achievements {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-achievement {
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Media query for screen width 425px */
+  @media only screen and (max-width: 425px) {
+    .about {
+      padding: 15px;
+    }
+  
+    .title {
+      text-align: center;
+      font-size: 18px;
+    }
+  
+    .about-sections {
+      flex-direction: column;
+    }
+  
+    .about-left {
+      margin-bottom: 20px;
+    }
+  
+    .about-right {
+      padding: 0;
+    }
+  
+    .about-para {
+      font-size: 14px;
+    }
+  
+    .about-skills {
+      margin-top: 20px;
+    }
+  
+    .about-achievements {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-achievement {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Media query for screen width 768px */
+  @media only screen and (max-width: 768px) {
+    .about {
+      padding: 20px;
+    }
+  
+    .title {
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .about-sections {
+      flex-direction: column;
+    }
+  
+    .about-left {
+      margin-bottom: 25px;
+    }
+  
+    .about-right {
+      padding: 0;
+    }
+  
+    .about-para {
+      font-size: 16px;
+    }
+  
+    .about-skills {
+      margin-top: 25px;
+    }
+  
+    .about-achievements {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-achievement {
+      margin-bottom: 25px;
+    }
+  }
+  

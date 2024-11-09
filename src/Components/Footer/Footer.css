@@ -97,3 +97,171 @@ max-width: 400px;
    }
 
 }
+
+
+/* Media query for screen width 320px */
+
+@media only screen and (max-width: 320px) {
+    .footer {
+    padding: 10px;
+    }
+    
+    .footer-top {
+    flex-direction: column;
+    }
+    
+    .footer-top-left {
+    margin-bottom: 20px;
+    }
+    
+    .footer-top-left h1 {
+    font-size: 18px;
+    }
+    
+    .footer-top-left p {
+    font-size: 14px;
+    }
+    
+    .footer-top-right {
+    width: 100%;
+    }
+    
+    .footer-email-input {
+    width: 100%;
+    }
+    
+    .footer-email-input input {
+    padding: 10px;
+    font-size: 14px;
+    }
+    
+    .footer-subscribe {
+    padding: 10px 20px;
+    font-size: 16px;
+    }
+    
+    .footer-bottom {
+    flex-direction: column;
+    }
+    
+    .footer-bootom-left {
+    margin-bottom: 10px;
+    font-size: 14px;
+    }
+    
+    .footer-bottom-rigt {
+    font-size: 14px;
+    }
+    
+    .footer-bottom-rigt p {
+    margin-bottom: 10px;
+    }
+    }
+    
+    /* Media query for screen width 425px */
+    
+    @media only screen and (max-width: 425px) {
+    .footer {
+    padding: 15px;
+    }
+    
+    .footer-top {
+    flex-direction: row;
+    }
+    
+    .footer-top-left {
+    width: 50%;
+    }
+    
+    .footer-top-left h1 {
+    font-size: 20px;
+    }
+    
+    .footer-top-left p {
+    font-size: 16px;
+    }
+    
+    .footer-top-right {
+    width: 50%;
+    }
+    
+    .footer-email-input {
+    width: 80%;
+    }
+    
+    .footer-email-input input {
+    padding: 15px;
+    font-size: 16px;
+    }
+    
+    .footer-subscribe {
+    padding: 15px 30px;
+    font-size: 18px;
+    }
+    
+    .footer-bottom {
+    flex-direction: row;
+    }
+    
+    .footer-bootom-left {
+    font-size: 16px;
+    }
+    
+    .footer-bottom-rigt {
+    font-size: 16px;
+    }
+    }
+    
+    /* Media query for screen width 768px */
+    
+    @media only screen and (max-width: 768px) {
+    .footer {
+    padding: 20px;
+    }
+    
+    .footer-top {
+    flex-direction: row;
+    }
+    
+    .footer-top-left {
+    width: 55%;
+    }
+    
+    .footer-top-left h1 {
+    font-size: 22px;
+    }
+    
+    .footer-top-left p {
+    font-size: 18px;
+    }
+    
+    .footer-top-right {
+    width: 45%;
+    }
+    
+    .footer-email-input {
+    width: 90%;
+    }
+    
+    .footer-email-input input {
+    padding: 20px;
+    font-size: 18px;
+    }
+    
+    .footer-subscribe {
+    padding: 20px 40px;
+    font-size: 20px;
+    }
+    
+    .footer-bottom {
+    flex-direction: row;
+    }
+    
+    .footer-bootom-left {
+    font-size: 18px;
+    }
+    
+    .footer-bottom-rigt {
+    font-size: 18px;
+    }
+    }
